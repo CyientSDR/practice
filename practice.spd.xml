@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE softpkg PUBLIC "-//JTRS//DTD SCA V2.2.2 SPD//EN" "softpkg.dtd">
+<softpkg id="DCE:fbb055bb-ad63-4935-8dc3-6d1b805ff841" name="practice" type="2.2.7">
+  <title></title>
+  <author>
+    <name>null</name>
+  </author>
+  <propertyfile type="PRF">
+    <localfile name="practice.prf.xml"/>
+  </propertyfile>
+  <descriptor>
+    <localfile name="practice.scd.xml"/>
+  </descriptor>
+  <implementation id="cpp">
+    <description>The implementation contains descriptive information about the template for a software resource.</description>
+    <code type="Executable">
+      <localfile name="cpp/practice"/>
+      <entrypoint>cpp/practice</entrypoint>
+    </code>
+    <compiler name="/usr/bin/gcc" version="4.4.7"/>
+    <programminglanguage name="C++"/>
+    <humanlanguage name="EN"/>
+    <os name="Linux"/>
+    <processor name="x86"/>
+    <processor name="x86_64"/>
+  </implementation>
+</softpkg>
